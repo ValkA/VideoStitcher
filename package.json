@@ -1,0 +1,39 @@
+{
+  "name": "VideoStitcher",
+  "version": "0.0.1",
+  "description": "NodeJS app that composes video out of text by indexing other videos",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "commander": "*",
+    "promise-limit": "*",
+    "fluent-ffmpeg": "*",
+    "watson-developer-cloud": "*"
+  },
+  "engines": {
+    "node": "6.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ValkA/VideoStitcher"
+  },
+  "keywords": [
+    "node",
+    "tts",
+    "video",
+    "ffmpeg",
+    "stitching",
+    "stitcher",
+    "cut",
+    "text",
+    "to",
+    "movie",
+    "speak",
+    "words"
+  ],
+  "author": "Valentin Dashinsky",
+  "contributors": [],
+  "license": "MIT"
+}
